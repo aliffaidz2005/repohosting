@@ -1,0 +1,39 @@
+/*universal selector*/
+* {
+    font-family:Tahoma;
+}
+/* type selector*/
+h1{
+    color:darkgoldenrod 
+}
+
+/*class selector*/
+span.html{
+    color:brown
+
+}
+span.css{
+    color:brown
+}
+span.js{
+    color:brown
+}
+
+/*child selector*/
+p>span{
+    font-family: Times New Roman;
+    color: brown;
+}
+/* first chile selector*/
+h3+p{
+    font-family: Arial;
+    color:blue
+}
+hr+p{
+    color:red
+}
+
+/*all selector descendat selector*/
+h1~p{
+    text-align: justify;
+}
